@@ -17,6 +17,10 @@ img {
   max-width: 100%;
 }
 
+button {
+  cursor: pointer;
+}
+
 .btn-container {
   position: absolute;
   top: 50%;
@@ -27,6 +31,23 @@ img {
   padding: 10px 20px;
   border: none;
   font-size: 16px;
-  cursor: pointer;
   text-transform: uppercase;
+}
+.timer {
+  display: flex;
+  gap: 22px;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+.value {
+  font-size: xx-large;
+}
+.label {
+  text-transform: uppercase;
+  font-size: x-small;
+  font-weight: 600;
 }
